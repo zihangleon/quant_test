@@ -4,11 +4,9 @@
 This project implements a **single SMA trading strategy** for cryptocurrencies in a Jupyter Notebook. Buy/sell signals are generated when the price crosses above/below the SMA. The backtest simulates full-position long/short trades with optional transaction fees.
 
 **Requirements:**  
-```python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-‘’‘
+pandas，numpy，matplotlib.pyplot
+
+
 Features:
 
 Test multiple SMA periods and compare performance.
