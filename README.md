@@ -21,7 +21,7 @@ SMA(20) performed best in this dataset (lowest loss, moderate drawdown).
 
 Short-period SMAs are sensitive to noise and lead to frequent losing trades.
 
-Improvements:
+Possible Improvements:
 
 Add signal filtering, stop-loss/take-profit rules, or dual SMA crossover.
 
@@ -29,6 +29,4 @@ Test across different market conditions to optimize SMA selection.
 
 Usage Example:
 
-python
-Copy code
 df_bt, trades, perf = backtest_single_sma(df, sma_period=10, initial_capital=100000, fee=0.0002)
