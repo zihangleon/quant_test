@@ -8,6 +8,7 @@ This project implements a **single SMA trading strategy** for cryptocurrencies i
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+‘’‘
 Features:
 
 Test multiple SMA periods and compare performance.
